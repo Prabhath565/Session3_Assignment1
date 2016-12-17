@@ -1,0 +1,32 @@
+/*2nd table*/
+
+
+
+
+
+.divTabletwo
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRowtwo
+    {
+       display:table-row;
+       width:auto;
+border:1px solid black;
+    }
+
+    .divCelltwo
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+border:1px solid black;
+        
+    }
